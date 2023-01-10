@@ -13,6 +13,7 @@
 		EF099151296DCDF9006BAA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF09914F296DCDF9006BAA87 /* Main.storyboard */; };
 		EF099153296DCDFB006BAA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF099152296DCDFB006BAA87 /* Assets.xcassets */; };
 		EF099156296DCDFB006BAA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF099154296DCDFB006BAA87 /* LaunchScreen.storyboard */; };
+		EF09915E296DD96F006BAA87 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09915D296DD96F006BAA87 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF099152296DCDFB006BAA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF099155296DCDFB006BAA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF099157296DCDFB006BAA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF09915D296DD96F006BAA87 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EF099149296DCDF9006BAA87 /* AppDelegate.swift */,
 				EF09914B296DCDF9006BAA87 /* SceneDelegate.swift */,
 				EF09914D296DCDF9006BAA87 /* ViewController.swift */,
+				EF09915D296DD96F006BAA87 /* Alert.swift */,
 				EF09914F296DCDF9006BAA87 /* Main.storyboard */,
 				EF099152296DCDFB006BAA87 /* Assets.xcassets */,
 				EF099154296DCDFB006BAA87 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				EF09914E296DCDF9006BAA87 /* ViewController.swift in Sources */,
 				EF09914A296DCDF9006BAA87 /* AppDelegate.swift in Sources */,
+				EF09915E296DD96F006BAA87 /* Alert.swift in Sources */,
 				EF09914C296DCDF9006BAA87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

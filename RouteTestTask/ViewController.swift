@@ -22,4 +22,17 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func addAdressButtonTapped(_ sender: UIButton) {
+        alertAddAdress(title: "Add", placeholder: "Enter adress", completionHandler: { text in
+            print(text)
+        })
+    }
+    
+    @IBAction func routeButtonTapped(_ sender: UIButton) {
+        print("Route Button tepped")
+    }
+    
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
+        print("Reset Button tepped")
+    }
 }
