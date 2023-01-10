@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var mapView: MKMapView!
+    
+    @IBOutlet weak var addAdressButton: UIButton!
+    @IBOutlet weak var routeButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
 }
-
