@@ -13,19 +13,19 @@ extension UIViewController {
         
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .alert)
         
-        ac.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+        ac.addAction(UIAlertAction(title: "OK", style: .default) { _ in
             let tfText = ac.textFields?.first
             guard let text = tfText?.text else { return }
             completionHandler(text)
-        }))
+        })
         
         ac.addTextField(configurationHandler: { textField in
             textField.placeholder = placeholder
         })
         
-        ac.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { _ in
+        ac.addAction(UIAlertAction(title: "Cancel", style: .cancel) { _ in
             
-        }))
+        })
         
         present(ac, animated: true)
     }
